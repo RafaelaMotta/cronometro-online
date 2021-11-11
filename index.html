@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Cronômetro Online</title>
+</head>
+<body>
+  <section class="bg">
+    <div id="anuncio"></div>
+  <div id="principal"> 
+    <div class="eg">      
+      <h3>English
+      </h3> 
+    </div>             
+        <img src="img/cronometronline.png" alt="Cronômetro Online">      
+        <h1 id='watch'>00:00:00</h1>
+        <div class="bigger-button">          
+            <button class="start-btn" value="enviar" onclick="trocar()">Iniciar</button>          
+            <button class="stop-btn"  onclick="stop()">Zerar</button>
+        </div>
+        <div  class="tw div">
+             <textarea id="message_text">Compartilhe com seus amigos!</textarea>
+             <a id="tweet_button" href="https://twitter.com/share?original_referer=http%3A%2F%2Fcronometronline.com.br%2F&amp;related=webgoal&amp;source=tweetbutton&amp;text=Compartilhe%20com%20seus%20amigos...&amp;url=http%3A%2F%2Fcronometronline.com.br%2F&amp;via=cronometronline" onclick="return twitterModal(this);">twittar</a>
+            <p id="chars_left">69</p>
+        </div>    
+
+          <footer class="div">
+            <a href="http://www.timeronline.com.br" title="Conheça o Timer Online" target="_blank">www.timeronline.com.br</a>
+            <a id="info" href="#">saiba mais sobre o cronômetro!</a>
+          </footer>
+   </div>
+  </section>  
+    <script src="js/script.js"></script>
+
+</body>
+</html>
