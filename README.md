@@ -6,6 +6,6 @@
   
   Quando o usuário clica em iniciar o botão "Iniciar" é substituido pelo botao "Pausar".
      
-     ![imagem da reserva](https://github.com/RafaelaMotta/animacoes-zbra/blob/main/mobile1.PNG)
+     ![imagem da reserva](https://github.com/RafaelaMotta/cronometro-online/blob/branch-padr%C3%A3o/cronometro01.PNGile1.PNG)
 
   
